@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 140%;
+}
+body {
+    font-family: 'TT Hoves';
+    color: #222;
+    height: 3000px;
+}
+section{
+    padding: 0px 120px;
+}
+.logo{
+    margin-top: 37px;
+    flex-basis: 295px;
+    flex-shrink: 0;
+}
+.courseData{
+    font-size: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 160px;
+    margin-top: 85px;
+    margin-bottom: 76px;
+}
+.courseInfo .value{
+    font-size: 21px;
+    font-weight: 700;
+}
+.courseInfo .title{
+    font-size: 21px;
+}
+h1{
+    font-family: 'Chava';
+    font-size: 80px;
+}
+p{
+    font-size: 27px;
+    font-weight: 300;
+}
+.cta{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.primary{
+    border-radius: 12px;
+    background: #6E3ABA;
+    flex-basis: 328px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 20px 0px;
+}
+.secondary{
+    border-radius: 12px;
+    border: 1px solid #6E3ABA;
+    color: #6E3ABA;
+    flex-basis: 328px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 20px 0px;
+}
+.first_second{
+    gap: 160px;
+    background: #FFF;
+    margin: 160px;
+}
+
+
+
+
+.title2{
+    font-size: 58px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.58px;
+    flex-basis: 315px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1000px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-items: flex-start;
+    gap: 0px 80px;
+}
+.container_1{
+    flex-basis: 450px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-bottom: 40px;
+}
+.old{
+    flex-basis: 287px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 5px 18px 13px 0px;
+    align-items: center;
+}
+.devInfo{
+    font-size: 27px;
+}
+.devInfo .title{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.devInfo .value{
+    flex-basis: 450px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+
+.container_2{
+    flex-basis: 450px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-bottom: 40px;
+}
+.girl{
+    flex-basis: 254px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 5px 18px 13px 0px;
+    align-items: center;
+}
+
+
+.container_3{
+    flex-basis: 432px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-bottom: 40px;
+}
+.boy{
+    flex-basis: 254px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 5px 18px 13px 0px;
+    align-items: center;
+}
+
+
+.container_4{
+    flex-basis: 477px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-bottom: 40px;
+}
+.emoji_girl{
+    flex-basis: 254px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 5px 18px 13px 0px;
+    align-items: center;
+}
+@media screen and (max-width="376px") {
+    section{
+        padding: 0px 40px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
