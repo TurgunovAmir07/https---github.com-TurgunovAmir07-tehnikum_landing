@@ -6,6 +6,9 @@
 body {
     font-family: 'TT Hoves';
     color: #222;
+    flex-basis: 1280px;
+    flex-shrink: 1;
+    flex-grow: 0;
     height: 3000px;
 }
 section{
@@ -14,7 +17,8 @@ section{
 .logo{
     margin-top: 37px;
     flex-basis: 295px;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    flex-grow: 0;
 }
 .courseData{
     font-size: 21px;
