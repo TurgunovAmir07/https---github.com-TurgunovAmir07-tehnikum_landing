@@ -13,6 +13,10 @@ body {
 }
 section{
     padding: 0px 120px;
+    margin-bottom: 160px;
+}
+section:last-child{
+    margin-bottom: 0px;
 }
 .logo{
     margin-top: 37px;
