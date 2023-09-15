@@ -13,7 +13,7 @@ body {
 }
 section{
     padding: 0px calc(10.6vw - 16px);
-    margin-bottom: 160px;
+    margin-bottom: calc(11vw + 18.6px);
 }
 section:last-child{
     margin-bottom: 0px;
@@ -78,11 +78,6 @@ p{
     flex-shrink: 1;
     flex-grow: 0;
     padding: 20px 0px;
-}
-.first_second{
-    gap: 160px;
-    background: #FFF;
-    margin: 160px;
 }
 
 
