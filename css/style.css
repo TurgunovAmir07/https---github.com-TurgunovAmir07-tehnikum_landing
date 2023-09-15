@@ -12,11 +12,17 @@ body {
     height: 3000px;
 }
 section{
-    padding: 0px 120px;
+    padding: 0px calc(10.6vw - 16px);
     margin-bottom: 160px;
 }
 section:last-child{
     margin-bottom: 0px;
+}
+.hello{
+    background-image: url('../img/html_css_js\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right 20px top 70px;
+    background-size: calc(23.8vw + 90px);
 }
 .logo{
     margin-top: 37px;
@@ -171,4 +177,51 @@ p{
     flex-grow: 0;
     padding: 5px 18px 13px 0px;
     align-items: center;
+}
+
+
+
+.purple{
+    background: #6E3ABA;
+}
+h3{
+    font-size: calc(2vw + 26px);
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+    margin: calc(4vw + 5px) 0;
+}
+.timeBlock{
+    color: #2F1D4E;
+}
+.timeBlock .number{
+    font-family: Chava;
+    font-size: calc(13vw + 13px);
+    line-height: 107.5%;
+}
+.timeBlock .date{
+    text-align: center;
+    font-size: calc(2vw + 3px);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.center{
+    margin: 0 auto;
+    width: 328px;
+    padding: 20px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FFF;
+    text-align: center;
+    border: 1px solid #6E3ABA;
+}
+section.purple{
+    padding-top: calc(4.4vw + 23px);
+    padding-bottom: calc(5.2vw + 22px);
 }
