@@ -275,3 +275,54 @@ h4{
     font-size: calc(1vw + 14.3px);
     margin-bottom: calc(3.3vw + 42.4px);
 }
+section .no_top{
+    margin-top: 0px;
+    padding: calc(10.6vw + 288.2px);
+}
+svg{
+    width: calc(81.4vw + 22.6px);
+    height: calc(21.5vw + 524.2px);
+    position: absolute;
+}
+.padding{
+    padding-top: 80px;
+    padding-left: 64px;
+}
+h5{
+    font-size: calc(2.7vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    padding-bottom: calc(1.8vw + 17.4px);
+   
+}
+.nameLesson{
+    font-size: calc(0.6vw + 14px);
+    border-bottom: 1px solid #A1A1A1;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.purple_btn{
+    width: calc(10.6vw + 288.2px);
+    padding: 20px 0px;
+    gap: 10px;
+    background: #6E3ABA;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 12px;
+}
+.white{
+    border-radius: 12px;
+    background: #6E3ABA;
+    color: #FFF;
+    width: calc(10.6vw + 288.2px);
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 34px;
+    margin-left: 250px;
+    margin-bottom: 35px;
+} 
